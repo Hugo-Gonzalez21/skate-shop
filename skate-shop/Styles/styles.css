@@ -72,9 +72,9 @@ body {
         display: block;
     }
 
-    .hero {
-        
-        height: 450px;
+    .navbar {
+        justify-content: space-between;
+        padding: 10px 20px;
     }
 
     .nav-links {
