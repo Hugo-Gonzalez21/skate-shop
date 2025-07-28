@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skateboarding</title>
+    <link rel="stylesheet" href="./Styles/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">SkateBording</h1>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#" id="abrir-carrito">Mi Carrito <i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Bienvenido a SkateBording</h1>
+        <p>Descubre el mundo del <span>SKATE</span> con nosotros.</p>
+    </div>
+
+    <section id="productos" class="productos">
+        <h2>Productos de Skate</h2>
+        <div id="contenedor-productos" class="productos-contenedor"></div>
+    </section>
+
+    <div id="carrito-panel" class="carrito-panel oculto">
+        <div class="carrito-contenido">
+            <span id="cerrar-carrito" class="cerrar">&times;</span>
+            <h2 class="titulo-carrito">Mi Carrito de Compras</h2>
+            <ul id="lista-carrito"></ul>
+            <p id="total" class="total">Total: $0</p>
+            <button id="vaciar-carrito" class="btn-car">Vaciar Carrito</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 SkateLife. Todos los derechos reservados.</p>
+    </footer>
+    <!-- Asegúrate de enlazar tu JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

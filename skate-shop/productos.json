@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "categoria": "completos",
+    "nombre": "Skate Completo Pill Skateboard 8.0",
+    "precio": 64990,
+    "imagen": "./Tablas/Tabla1.webp",
+    "descripcion": "Skate completo, ideal para street. Incluye tabla, trucks, ruedas y rodamientos"
+  },
+  {
+    "id": 2,
+    "categoria": "completos",
+    "nombre": "Skate 31 Minutos Completo 8.25",
+    "precio": 59990,
+    "imagen": "./Tablas/Tabla31Minutos.webp",
+    "descripcion": "Diseño clásico Blind. Listo para andar en parque o calle."
+  },
+  {
+    "id": 3,
+    "categoria": "completos",
+    "nombre": "Skate Completo Pill Banana Skateboard 8.0",
+    "precio": 38990,
+    "imagen": "./Tablas/TablaBanana.webp",
+    "descripcion": "Skate completo, ideal para street. Incluye tabla, trucks, ruedas y rodamientos."
+  },
+  {
+    "id": 4,
+    "categoria": "tablas",
+    "nombre": "Tabla Baker Brand Logo 8.0",
+    "precio": 34990,
+    "imagen": "./Tablas/TablaBakerRoja.jpeg",
+    "descripcion": "Gráfica clásica de Baker. Ideal para trucos técnicos."
+  },
+  {
+    "id": 5,
+    "categoria": "lijas",
+    "nombre": "Lija Black ",
+    "precio": 5990,
+    "imagen": "./Lijas/LijaBlack.webp",
+    "descripcion": "Lija de alta calidad, buen agarre y durabilidad."
+  },
+  {
+    "id": 6,
+    "categoria": "lijas",
+    "nombre": "Lija Morada Jessup",
+    "precio": 4990,
+    "imagen": "./Lijas/LijaMorada.webp",
+    "descripcion": "Clásica lija Jessup, buen grip y durabilidad."
+  },
+  {
+    "id": 7,
+    "categoria": "trucks",
+    "nombre": "Trucks Independent 139 Stage 11",
+    "precio": 44990,
+    "imagen": "./Trucks/trucksIdependent.webp",
+    "descripcion": "Estables y resistentes, perfectos para 8.0 a 8.25."
+  },
+  {
+    "id": 8,
+    "categoria": "trucks",
+    "nombre": "Trucks Thunder Hollow Lights 147",
+    "precio": 47990,
+    "imagen": "./Trucks/trucksThunder.webp",
+    "descripcion": "Livianos y con excelente respuesta para street."
+  },
+  {
+    "id": 9,
+    "categoria": "ruedas",
+    "nombre": "Ruedas Spitfire Formula Four 52mm",
+    "precio": 31990,
+    "imagen": "./Ruedas/ruedasSpitfire.jpg  ",
+    "descripcion": "Alta resistencia al flatspot. Buen agarre y deslizamiento."
+  },
+  {
+    "id": 10,
+    "categoria": "ruedas",
+    "nombre": "Ruedas Bones STF 54mm",
+    "precio": 32990,
+    "imagen": "./Ruedas/ruedasBones.webp",
+    "descripcion": "Ideales para street técnico y skatepark."
+  },
+  {
+    "id": 11,
+    "categoria": "rodamientos",
+    "nombre": "Rodamientos Bones Reds",
+    "precio": 19990,
+    "imagen": "./Rodamientos/rodamientoReds.webp",
+    "descripcion": "Rodamientos duraderos y rápidos, calidad garantizada."
+  },
+  {
+    "id": 12,
+    "categoria": "rodamientos",
+    "nombre": "Rodamientos Bronson G3",
+    "precio": 23990,
+    "imagen": "./Rodamientos/rodamientosG3.png",
+    "descripcion": "Alta velocidad y resistencia al polvo."
+  },
+  {
+    "id": 13,
+    "categoria": "antivibradores",
+    "nombre": "Shock Pads Independent 1/8\"",
+    "precio": 4990,
+    "imagen": "./Antivibradores/shockPadds.webp",
+    "descripcion": "Reduce vibraciones y evita fisuras en la tabla."
+  },
+  {
+    "id": 14,
+    "categoria": "accesorios",
+    "nombre": "Mochila Vans Skatepack",
+    "precio": 29990,
+    "imagen": "./Accesorios/mochilaVans.webp",
+    "descripcion": "Mochila resistente con correas para sujetar tu skate."
+  },
+  {
+    "id": 15,
+    "categoria": "accesorios",
+    "nombre": "Herramienta de Skate T-Tool",
+    "precio": 7990,
+    "imagen": "./Accesorios/llaveT.webp",
+    "descripcion": "Herramienta todo en uno para montar y ajustar tu skate."
+  }
+]
