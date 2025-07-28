@@ -76,8 +76,13 @@ body {
         justify-content: space-between;
         padding: 10px 20px;
     }
+
     .hero {
         margin-top: 50px;
+    }
+
+    .logo {
+        margin-left: 7;
     }
 
     .nav-links {
