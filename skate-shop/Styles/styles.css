@@ -76,6 +76,9 @@ body {
         justify-content: space-between;
         padding: 10px 20px;
     }
+    .hero {
+        margin-top: 25px;
+    }
 
     .nav-links {
         flex-direction: column;
