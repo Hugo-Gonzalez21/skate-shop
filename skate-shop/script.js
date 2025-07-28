@@ -89,3 +89,12 @@ cerrarCarritoBtn.addEventListener("click", function () {
   carritoPanel.classList.remove("visible");
   carritoPanel.classList.add("oculto"); // <-- agrega esto
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active"); // esta clase SÍ existe en tu CSS responsive
+  });
+});
