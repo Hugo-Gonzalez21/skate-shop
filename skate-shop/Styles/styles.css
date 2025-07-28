@@ -99,6 +99,8 @@ body {
     width: 100%;
     background-color: #f0f0f0;
     background-image: url('/skate-shop/Fotos/nyjah2.jpeg');
+    background-image: url('./skate-shop/Fotos/nyjah2.jpeg');
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
