@@ -295,21 +295,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.category-btn {
-    background: transparent;
-    color: #fca311;
-    border: 2px solid #fca311;
-    padding: 10px 25px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s;
-    font-weight: 500;
-}
 
-.category-btn:hover {
-    background: #fca311;
-    color: white;
-}
 
 /* Featured Products */
 .featured-products {
