@@ -124,7 +124,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
     position: relative;
     overflow: hidden;
     padding: 0 6rem;
@@ -245,7 +244,6 @@ body {
 /* Categories */
 .categories {
     padding: 100px 0;
-    background: white;
 }
 
 .categories h2 {
@@ -993,7 +991,6 @@ footer {
     right: 0;
     width: 350px;
     height: 100%;
-    background: white;
     border-left: 2px solid #ccc;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
