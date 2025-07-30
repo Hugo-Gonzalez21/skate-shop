@@ -128,7 +128,17 @@ body {
     color: white;
 }
 
+.hero::before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/Fotos/nyjah1.jpeg');
 
+}
 
 .hero span {
     color: #fca311;
