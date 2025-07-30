@@ -216,7 +216,7 @@ body {
 }
 
 .feature i {
-    color: #ff6b35;
+    color: #fca311;
     font-size: 1.2rem;
     width: 20px;
 }
@@ -264,11 +264,12 @@ body {
 .category-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-    border-color: #ff6b35;
+    border-color: #fca311;
+    
 }
 
 .category-icon {
-    background: linear-gradient(135deg, #ff6b35, #e55a2b);
+    background: linear-gradient(135deg, #fca311, #fca311);
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -296,8 +297,8 @@ body {
 
 .category-btn {
     background: transparent;
-    color: #ff6b35;
-    border: 2px solid #ff6b35;
+    color: #fca311;
+    border: 2px solid #fca311;
     padding: 10px 25px;
     border-radius: 25px;
     cursor: pointer;
@@ -306,7 +307,7 @@ body {
 }
 
 .category-btn:hover {
-    background: #ff6b35;
+    background: #fca311;
     color: white;
 }
 
