@@ -52,6 +52,7 @@ body {
     align-items: center;
     padding: 10px 30px;
     flex-wrap: wrap;
+    background-color: white;
 }
 
 .menu-toggle {
@@ -124,6 +125,7 @@ body {
     position: relative;
     overflow: hidden;
     padding: 0 6rem;
+    color: white;
 }
 
 .hero::before {
