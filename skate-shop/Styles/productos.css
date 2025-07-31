@@ -221,7 +221,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     align-items: stretch;
-    background-color: #fca311;
 }
 
 .producto {
@@ -250,9 +249,7 @@ body {
     transition: transform 0.3s ease;
 }
 
-.producto:hover img {
-    transform: scale(1.05);
-}
+
 
 .producto-contenido {
     padding: 1.5rem;
@@ -289,7 +286,25 @@ body {
 }
 
 .producto .btn-car {
-    margin-top: auto;
+    background-color: #fca311;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+
+.producto .btn-car:hover {
+    background-color: #ffb933;
+    color: #222;
+    transform: translateY(-2px) scale(1.04);
 }
 
 /* ===== CARRITO PANEL ===== */
