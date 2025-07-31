@@ -662,6 +662,10 @@ body {
     outline: none;
 }
 
+.nav-links a.active {
+    color: #fca311;
+}
+
 .newsletter-form button {
     background: #ff6b35;
     color: white;
