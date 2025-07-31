@@ -94,7 +94,7 @@
                     <h3>Trucks</h3>
                     <p>Trucks resistentes y duraderos</p>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -129,8 +129,7 @@
                     </div>
                 </div>
                 <div class="about-image">
-                    <img src="/Fotos/tienda.jpg"
-                        alt="Interior de la tienda">
+                    <img src="/Fotos/tienda.jpg" alt="Interior de la tienda">
                 </div>
             </div>
         </div>
@@ -172,11 +171,41 @@
 
     <div id="carrito-panel" class="carrito-panel oculto">
         <div class="carrito-contenido">
-            <span id="cerrar-carrito" class="cerrar">&times;</span>
-            <h2 class="titulo-carrito">Mi Carrito de Compras</h2>
-            <ul id="lista-carrito"></ul>
-            <p id="total" class="total">Total: $0</p>
-            <button id="vaciar-carrito" class="btn-car">Vaciar Carrito</button>
+            <div class="carrito-header">
+                <h2 class="titulo-carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                    Mi Carrito
+                </h2>
+                <span id="cerrar-carrito" class="cerrar">
+                    <i class="fas fa-times"></i>
+                </span>
+            </div>
+
+            <div class="carrito-body">
+                <ul id="lista-carrito" class="lista-carrito-vacia">
+                    <li class="carrito-vacio">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p>Tu carrito está vacío</p>
+                        <small>Agrega algunos productos increíbles</small>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="carrito-footer">
+                <div class="total-section">
+                    <p id="total" class="total">Total: $0</p>
+                </div>
+                <div class="carrito-acciones">
+                    <button id="vaciar-carrito" class="btn-vaciar">
+                        <i class="fas fa-trash"></i>
+                        Vaciar Carrito
+                    </button>
+                    <button id="proceder-compra" class="btn-comprar">
+                        <i class="fas fa-credit-card"></i>
+                        Proceder al Pago
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 
