@@ -969,6 +969,10 @@ footer {
     display: none;
 }
 
+.nav-links a.active {
+    color: #fca311;
+}
+
 .cerrar {
     font-size: 24px;
     cursor: pointer;

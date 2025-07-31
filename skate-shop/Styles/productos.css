@@ -221,6 +221,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     align-items: stretch;
+    background-color: #fca311;
 }
 
 .producto {
@@ -237,7 +238,6 @@ body {
 }
 
 .producto:hover {
-    transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
     border-color: #fca311;
 }
