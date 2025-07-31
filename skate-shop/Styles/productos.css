@@ -457,12 +457,12 @@ body {
 }
 
 .btn-comprar {
-    background: #28a745;
+    background: #ffb933;
     color: white;
 }
 
 .btn-comprar:hover {
-    background: #218838;
+    background: #fca311;
 }
 
 /* Footer */
