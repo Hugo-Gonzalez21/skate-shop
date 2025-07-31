@@ -4,53 +4,109 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Skateboarding</title>
+    <title>Productos - GrindZone</title>
     <link rel="stylesheet" href="./Styles/styles.css" />
+    <link rel="stylesheet" href="./Styles/productos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
-
+    <!-- Header -->
     <header>
         <nav class="navbar">
             <h1 class="logo">GrindZone</h1>
+
+            <!-- Ícono hamburguesa -->
             <div class="menu-toggle" id="menu-toggle">
                 <i class="fas fa-bars"></i>
             </div>
 
             <ul class="nav-links" id="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="#galeria">Galería</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#" id="abrir-carrito">Mi Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="productos.html" class="active">Productos</a></li>
+                <li><a href="index.html#galeria">Galería</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+                <li><a href="#" id="abrir-carrito">Mi Carrito <i class="fas fa-shopping-cart"></i><span
+                            id="carrito-contador" class="carrito-badge">0</span></a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <div class="hero">
-        <h1>Bienvenido a GrindZone</h1>
-        <p>Descubre el mundo del <span>SKATE</span> con nosotros.</p>
+        <h1>Productos de Skate</h1>
+        <p>Encuentra todo lo que necesitas para tu <span>SKATE</span>.</p>
     </div>
 
-    <section id="productos" class="productos">
-        <h2>Productos de Skate</h2>
-        <div id="contenedor-productos" class="productos-contenedor"></div>
+    <!-- Filtros de categorías -->
+    <section class="filtros">
+        <div class="container">
+            <h3>Filtrar por categoría:</h3>
+            <div class="filtros-botones">
+                <button class="filtro-btn active" data-categoria="todos">Todos</button>
+                <button class="filtro-btn" data-categoria="completos">Completos</button>
+                <button class="filtro-btn" data-categoria="tablas">Tablas</button>
+                <button class="filtro-btn" data-categoria="trucks">Trucks</button>
+                <button class="filtro-btn" data-categoria="ruedas">Ruedas</button>
+                <button class="filtro-btn" data-categoria="lijas">Lijas</button>
+                <button class="filtro-btn" data-categoria="rodamientos">Rodamientos</button>
+                <button class="filtro-btn" data-categoria="accesorios">Accesorios</button>
+            </div>
+        </div>
     </section>
 
+    <section id="productos" class="productos">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <div id="contenedor-productos" class="productos-contenedor"></div>
+        </div>
+    </section>
+
+    <!-- Panel del carrito -->
     <div id="carrito-panel" class="carrito-panel oculto">
         <div class="carrito-contenido">
-            <span id="cerrar-carrito" class="cerrar">&times;</span>
-            <h2 class="titulo-carrito">Mi Carrito de Compras</h2>
-            <ul id="lista-carrito"></ul>
-            <p id="total" class="total">Total: $0</p>
-            <button id="vaciar-carrito" class="btn-car">Vaciar Carrito</button>
+            <div class="carrito-header">
+                <h2 class="titulo-carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                    Mi Carrito
+                </h2>
+                <span id="cerrar-carrito" class="cerrar">
+                    <i class="fas fa-times"></i>
+                </span>
+            </div>
+
+            <div class="carrito-body">
+                <ul id="lista-carrito" class="lista-carrito-vacia">
+                    <li class="carrito-vacio">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p>Tu carrito está vacío</p>
+                        <small>Agrega algunos productos increíbles</small>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="carrito-footer">
+                <div class="total-section">
+                    <p id="total" class="total">Total: $0</p>
+                </div>
+                <div class="carrito-acciones">
+                    <button id="vaciar-carrito" class="btn-vaciar">
+                        <i class="fas fa-trash"></i>
+                        Vaciar Carrito
+                    </button>
+                    <button id="proceder-compra" class="btn-comprar">
+                        <i class="fas fa-credit-card"></i>
+                        Proceder al Pago
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
+
     <footer>
-        <p>&copy; 2025 SkateLife. Todos los derechos reservados.</p>
+        <p>&copy; 2025 GrindZone. Todos los derechos reservados.</p>
     </footer>
-    <!-- Asegúrate de enlazar tu JS -->
+
     <script src="script.js"></script>
 </body>
 
