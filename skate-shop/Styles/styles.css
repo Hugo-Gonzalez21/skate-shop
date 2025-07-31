@@ -99,9 +99,6 @@ body {
         margin-top: 10px;
     }
 
-    .hero{
-        font-size: 1rem;
-    }
 
     .nav-links li {
         margin: 1rem 0;
@@ -130,7 +127,7 @@ body {
     overflow: hidden;
     padding: 0 6rem;
     color: white;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 
@@ -250,7 +247,7 @@ body {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
     border-color: #fca311;
-    
+
 }
 
 .category-icon {
