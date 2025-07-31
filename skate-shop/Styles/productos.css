@@ -73,9 +73,6 @@ body {
     color: #8a8a8a;
 }
 
-.nav-links a.active {
-    color: #fca311;
-}
 
 /* Badge del carrito */
 .carrito-badge {
