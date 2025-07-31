@@ -4,53 +4,70 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Skateboarding</title>
+    <title>GrindZone - Skateboarding</title>
     <link rel="stylesheet" href="./Styles/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
-
     <header>
         <nav class="navbar">
             <h1 class="logo">GrindZone</h1>
             <div class="menu-toggle" id="menu-toggle">
                 <i class="fas fa-bars"></i>
             </div>
-
             <ul class="nav-links" id="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#productos">Productos</a></li>
                 <li><a href="#galeria">Galería</a></li>
                 <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#" id="abrir-carrito">Mi Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="#" id="abrir-carrito">Mi Carrito <i class="fas fa-shopping-cart"></i> <span
+                            id="contador-carrito">0</span></a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="hero">
+    <div class="hero" id="home">
         <h1>Bienvenido a GrindZone</h1>
         <p>Descubre el mundo del <span>SKATE</span> con nosotros.</p>
     </div>
 
     <section id="productos" class="productos">
-        <h2>Productos de Skate</h2>
-        <div id="contenedor-productos" class="productos-contenedor"></div>
+        <div class="container">
+            <h2>Productos de Skate</h2>
+            <div class="filtros">
+                <button class="filtro-btn active" data-categoria="todos">Todos</button>
+                <button class="filtro-btn" data-categoria="tablas">Tablas</button>
+                <button class="filtro-btn" data-categoria="ruedas">Ruedas</button>
+                <button class="filtro-btn" data-categoria="trucks">Trucks</button>
+                <button class="filtro-btn" data-categoria="accesorios">Accesorios</button>
+            </div>
+            <div id="contenedor-productos" class="productos-contenedor"></div>
+        </div>
     </section>
 
-    <div id="carrito-panel" class="carrito-panel oculto">
+    <!-- Panel del Carrito -->
+    <div id="carrito-panel" class="carrito-panel">
         <div class="carrito-contenido">
             <span id="cerrar-carrito" class="cerrar">&times;</span>
             <h2 class="titulo-carrito">Mi Carrito de Compras</h2>
+            <div id="carrito-vacio" class="carrito-vacio">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Tu carrito está vacío</p>
+            </div>
             <ul id="lista-carrito"></ul>
-            <p id="total" class="total">Total: $0</p>
-            <button id="vaciar-carrito" class="btn-car">Vaciar Carrito</button>
+            <div id="carrito-total" class="carrito-total">
+                <p id="total" class="total">Total: $0</p>
+                <button id="vaciar-carrito" class="btn-carrito">Vaciar Carrito</button>
+                <button id="finalizar-compra" class="btn-comprar">Finalizar Compra</button>
+            </div>
         </div>
     </div>
+
     <footer>
-        <p>&copy; 2025 SkateLife. Todos los derechos reservados.</p>
+        <p>&copy; 2025 GrindZone. Todos los derechos reservados.</p>
     </footer>
-    <!-- Asegúrate de enlazar tu JS -->
+
     <script src="script.js"></script>
 </body>
 
